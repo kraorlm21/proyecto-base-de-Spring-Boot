@@ -8,7 +8,11 @@ public class HolaMundoController {
 
     @GetMapping("/hola")
     public String holaMundo() {
-        return "HOLA MUNDOO";
+        return "HOLA MUNDOO"; 
     }
 
+    @GetMapping("/hola")
+    public String holaMundo() {
+        return "hola soy amaro"; 
+    }
 }
